@@ -1,0 +1,12 @@
+# Packages for the free Render server ("light mode").
+# No PyTorch, no ChromaDB: the server would run out of memory.
+
+gradio>=6.0
+groq>=0.11
+python-dotenv>=1.0
+numpy>=1.26
+langgraph>=0.2
+mysql-connector-python>=9.0
+onnxruntime>=1.18
+tokenizers>=0.19
+huggingface_hub>=0.23

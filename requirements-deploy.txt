@@ -1,0 +1,15 @@
+# Packages the app needs when it runs on a server.
+# torch (CPU version) is installed separately in the Dockerfile.
+
+gradio>=6.0
+groq>=0.11
+python-dotenv>=1.0
+numpy>=1.26
+langgraph>=0.2
+mysql-connector-python>=9.0
+sentence-transformers>=3.0
+
+# IMPORTANT: replace this line with the exact version you use on your PC
+# (see Step 3 in the deploy steps), for example  chromadb==1.5.9
+# The saved knowledge base in data/chroma_db must be read by the same version.
+chromadb>=1.5.9

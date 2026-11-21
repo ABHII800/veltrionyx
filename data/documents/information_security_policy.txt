@@ -1,0 +1,17 @@
+
+VELTRIONYX - INFORMATION SECURITY POLICY
+
+1. Data Protection
+Employees must protect confidential company and customer information.
+
+2. Password Security
+Employees must use strong passwords and must never share their credentials.
+
+3. Security Incidents
+Employees must immediately report security incidents to the IT department.
+
+4. Access Control
+Employees should access only the information required for their job responsibilities.
+
+5. Data Sharing
+Confidential company information must not be shared with unauthorized individuals.

@@ -1,0 +1,26 @@
+# Secrets - never upload these
+.env
+.env.*
+!.env.example
+cloudrun-env.yaml
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Not needed on the server (downloaded or rebuilt there)
+models/
+data/chroma_db/
+
+# A stray folder with Windows-only files that breaks Linux servers
+uuid_utils/
+
+# Editor, logs, archives
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.log
+logs/
+*.zip
